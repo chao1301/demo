@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ArcGis Demo</title>
+<link rel="stylesheet" href="http://js.arcgis.com/3.14/esri/css/esri.css">
+<script src="http://js.arcgis.com/3.14/"></script>
+<style>
+	html,body {
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		height: 100%;
+	}
+</style>
+<script type="text/javascript">
+  
+require(["esri/map", "dojo/domReady!"], function(Map) { 
+	  var map = new Map("map", {
+	    center: [-118, 34.5],
+	    zoom: 8,
+	    basemap: "topo"
+	  });
+	});
+</script>
+</head>
+<body>
+</body>
+</html>
