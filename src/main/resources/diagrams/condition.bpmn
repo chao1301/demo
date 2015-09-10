@@ -7,7 +7,7 @@
     <serviceTask id="servicetask3" name="校验失败处理" activiti:exclusive="false" activiti:expression="#{userServiceImpl.dealFail()}"></serviceTask>
     <endEvent id="endevent1" name="End"></endEvent>
     <sequenceFlow id="flow1" sourceRef="startevent1" targetRef="servicetask1"></sequenceFlow>
-    <sequenceFlow id="flow2" name="成功" sourceRef="servicetask1" targetRef="servicetask2">
+    <sequenceFlow id="flow2" name="成功1" sourceRef="servicetask1" targetRef="servicetask2">
       <conditionExpression xsi:type="tFormalExpression"><![CDATA[${isSuccess}]]></conditionExpression>
     </sequenceFlow>
     <sequenceFlow id="flow3" name="失败" sourceRef="servicetask1" targetRef="servicetask3">
