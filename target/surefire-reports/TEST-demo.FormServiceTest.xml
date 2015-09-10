@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="7.643" errors="1" skipped="0" tests="1" name="demo.FormServiceTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\jdk1.6.0_21\jre\bin"/>
+    <property name="java.vm.version" value="17.0-b16"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workspace\demo"/>
+    <property name="java.runtime.version" value="1.6.0_21-b06"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\jdk1.6.0_21\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\Super\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows NT (unknown)"/>
+    <property name="classworlds.conf" value="D:\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf720642530995800517.tmp"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\jdk1.6.0_21\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/eclipse/jre/bin/client;D:/eclipse/jre/bin;D:/eclipse/jre/lib/i386;D:\oraclexe\app\oracle\product\10.2.0\server\bin;D:\apache-maven-3.1.1\bin;D:\jdk1.6.0_21\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Condusiv Technologies\ExpressCache\;C:\ProgramData\Lenovo\ReadyApps;D:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;D:\eclipse;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.2"/>
+    <property name="user.home" value="C:\Users\Super"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="Super"/>
+    <property name="java.class.path" value="D:\apache-maven-3.1.1\boot\plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="D:\jdk1.6.0_21\jre"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.6.0_21"/>
+    <property name="java.ext.dirs" value="D:\jdk1.6.0_21\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\jdk1.6.0_21\jre\lib\resources.jar;D:\jdk1.6.0_21\jre\lib\rt.jar;D:\jdk1.6.0_21\jre\lib\sunrsasign.jar;D:\jdk1.6.0_21\jre\lib\jsse.jar;D:\jdk1.6.0_21\jre\lib\jce.jar;D:\jdk1.6.0_21\jre\lib\charsets.jar;D:\jdk1.6.0_21\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="D:\apache-maven-3.1.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="maven.bootclasspath" value="D:\apache-maven-3.1.1\boot\plexus-classworlds-2.5.1.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="7.643" classname="demo.FormServiceTest" name="startFormSubmit">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at demo.FormServiceTest.startFormSubmit(FormServiceTest.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>2014-12-15 10:35:07:749 org.springframework.beans.factory.xml.XmlBeanDefinitionReader[INFO]: Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+2014-12-15 10:35:08:674 org.springframework.context.support.GenericApplicationContext[INFO]: Refreshing org.springframework.context.support.GenericApplicationContext@1b8e059: startup date [Mon Dec 15 10:35:08 CST 2014]; root of context hierarchy
+2014-12-15 10:35:09:091 org.mybatis.spring.mapper.ClassPathMapperScanner[DEBUG]: Identified candidate component class: file [D:\workspace\demo\target\classes\com\sper\demo\dao\IUserDao.class]
+2014-12-15 10:35:09:093 org.mybatis.spring.mapper.ClassPathMapperScanner[DEBUG]: Creating MapperFactoryBean with name &apos;IUserDao&apos; and &apos;com.sper.demo.dao.IUserDao&apos; mapperInterface
+2014-12-15 10:35:09:097 org.mybatis.spring.mapper.ClassPathMapperScanner[DEBUG]: Enabling autowire by type for MapperFactoryBean with name &apos;IUserDao&apos;.
+2014-12-15 10:35:09:139 org.springframework.beans.factory.config.PropertyPlaceholderConfigurer[INFO]: Loading properties file from class path resource [spring/jdbc.properties]
+2014-12-15 10:35:09:795 org.springframework.beans.factory.support.DefaultListableBeanFactory[INFO]: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1fd6bea: defining beans [propertyConfigurer,dataSource,transactionManager,sqlSessionFactory,processEngineConfiguration,processEngine,repositoryService,runtimeService,taskService,historyService,managementService,identityService,formService,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,serviceOperation,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.mybatis.spring.mapper.MapperScannerConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.config.internalBeanConfigurerAspect,userServiceImpl,messageSource,activitiRule,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,IUserDao]; root of factory hierarchy
+2014-12-15 10:35:09:938 org.apache.ibatis.logging.LogFactory[DEBUG]: Logging initialized using &apos;class org.apache.ibatis.logging.slf4j.Slf4jImpl&apos; adapter.
+2014-12-15 10:35:10:394 com.github.miemiedev.mybatis.paginator.OffsetLimitInterceptor[DEBUG]: dialectClass: com.github.miemiedev.mybatis.paginator.dialect.MySQLDialect 
+2014-12-15 10:35:10:395 com.github.miemiedev.mybatis.paginator.OffsetLimitInterceptor[DEBUG]: asyncTotalCount: false 
+2014-12-15 10:35:10:600 org.mybatis.spring.SqlSessionFactoryBean[DEBUG]: Parsed configuration file: &apos;class path resource [mybatis-config.xml]&apos;
+2014-12-15 10:35:11:469 org.mybatis.spring.SqlSessionFactoryBean[DEBUG]: Property &apos;mapperLocations&apos; was not specified or no matching resources found
+2014-12-15 10:35:12:260 org.activiti.engine.impl.cfg.ProcessEngineConfigurationImpl[DEBUG]: database product name: &apos;MySQL&apos;
+2014-12-15 10:35:12:261 org.activiti.engine.impl.cfg.ProcessEngineConfigurationImpl[DEBUG]: using database type: mysql
+2014-12-15 10:35:13:896 org.activiti.engine.impl.interceptor.LogInterceptor[DEBUG]:                                                                                                     
+2014-12-15 10:35:13:896 org.activiti.engine.impl.interceptor.LogInterceptor[DEBUG]: --- starting SchemaOperationsProcessEngineBuild --------------------------------------------------------
+2014-12-15 10:35:13:897 org.activiti.spring.SpringTransactionInterceptor[DEBUG]: Running command with propagation NOT_SUPPORTED
+2014-12-15 10:35:13:926 org.apache.ibatis.transaction.managed.ManagedTransaction[DEBUG]: Opening JDBC Connection
+2014-12-15 10:35:14:094 org.activiti.engine.impl.persistence.entity.PropertyEntity.selectProperty[DEBUG]: ooo Using Connection [Transaction-aware proxy for target Connection [org.apache.commons.dbcp.PoolableConnection@5bd978]]
+2014-12-15 10:35:14:104 org.activiti.engine.impl.persistence.entity.PropertyEntity.selectProperty[DEBUG]: ==&gt;  Preparing: select * from ACT_GE_PROPERTY where NAME_ = ? 
+2014-12-15 10:35:14:193 org.activiti.engine.impl.persistence.entity.PropertyEntity.selectProperty[DEBUG]: ==&gt; Parameters: schema.version(String)
+2014-12-15 10:35:14:251 org.activiti.engine.impl.persistence.entity.PropertyEntity.selectProperty[DEBUG]: &lt;==      Total: 1
+2014-12-15 10:35:14:269 org.activiti.engine.impl.db.DbSqlSession[DEBUG]: flush summary: 0 insert, 0 update, 0 delete.
+2014-12-15 10:35:14:270 org.activiti.engine.impl.db.DbSqlSession[DEBUG]: now executing flush...
+2014-12-15 10:35:14:270 org.apache.ibatis.transaction.managed.ManagedTransaction[DEBUG]: Closing JDBC Connection [Transaction-aware proxy for target Connection [org.apache.commons.dbcp.PoolableConnection@5bd978]]
+2014-12-15 10:35:14:271 org.activiti.engine.impl.interceptor.LogInterceptor[DEBUG]: --- SchemaOperationsProcessEngineBuild finished --------------------------------------------------------
+2014-12-15 10:35:14:272 org.activiti.engine.impl.interceptor.LogInterceptor[DEBUG]:                                                                                                     
+2014-12-15 10:35:14:272 org.activiti.engine.impl.ProcessEngineImpl[INFO]: ProcessEngine default created
+2014-12-15 10:35:14:275 org.activiti.engine.impl.jobexecutor.JobExecutor[INFO]: Starting up the JobExecutor[org.activiti.engine.impl.jobexecutor.DefaultJobExecutor].
+2014-12-15 10:35:14:281 org.activiti.engine.impl.jobexecutor.AcquireJobsRunnable[INFO]: JobExecutor[org.activiti.engine.impl.jobexecutor.DefaultJobExecutor] starting to acquire jobs
+2014-12-15 10:35:14:287 org.activiti.engine.impl.interceptor.LogInterceptor[DEBUG]:                                                                                                     
+2014-12-15 10:35:14:299 org.activiti.engine.impl.interceptor.LogInterceptor[DEBUG]: --- starting AcquireJobsCmd --------------------------------------------------------
+2014-12-15 10:35:14:300 org.activiti.spring.SpringTransactionInterceptor[DEBUG]: Running command with propagation REQUIRED
+2014-12-15 10:35:14:321 org.apache.ibatis.transaction.managed.ManagedTransaction[DEBUG]: Opening JDBC Connection
+2014-12-15 10:35:14:325 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql[DEBUG]: ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.apache.commons.dbcp.BasicDataSource@18c458]]
+2014-12-15 10:35:14:325 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql[DEBUG]: ==&gt;  Preparing: select RES.* from ACT_RU_JOB RES LEFT OUTER JOIN ACT_RU_EXECUTION PI ON PI.ID_ = RES.PROCESS_INSTANCE_ID_ where (RETRIES_ &gt; 0) and (DUEDATE_ is null or DUEDATE_ &lt;= ?) and (LOCK_OWNER_ is null or LOCK_EXP_TIME_ &lt;= ?) and ( (RES.EXECUTION_ID_ is null) or (PI.SUSPENSION_STATE_ = 1) ) LIMIT ? OFFSET ? 
+Event received: ENGINE_CREATED
+2014-12-15 10:35:14:360 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql[DEBUG]: ==&gt; Parameters: 2014-12-15 10:35:14.319(Timestamp), 2014-12-15 10:35:14.319(Timestamp), 1(Integer), 0(Integer)
+2014-12-15 10:35:14:364 org.activiti.engine.impl.persistence.entity.JobEntity.selectNextJobsToExecute_mysql[DEBUG]: &lt;==      Total: 0
+2014-12-15 10:35:14:365 org.activiti.engine.impl.db.DbSqlSession[DEBUG]: flush summary: 0 insert, 0 update, 0 delete.
+2014-12-15 10:35:14:368 org.activiti.engine.impl.db.DbSqlSession[DEBUG]: now executing flush...
+2014-12-15 10:35:14:369 org.apache.ibatis.transaction.managed.ManagedTransaction[DEBUG]: Closing JDBC Connection [Transaction-aware proxy for target Connection [org.apache.commons.dbcp.PoolableConnection@5bd978]]
+2014-12-15 10:35:14:371 org.activiti.engine.impl.interceptor.LogInterceptor[DEBUG]: --- AcquireJobsCmd finished --------------------------------------------------------
+2014-12-15 10:35:14:371 org.activiti.engine.impl.interceptor.LogInterceptor[DEBUG]:                                                                                                     
+2014-12-15 10:35:14:373 org.activiti.engine.impl.interceptor.LogInterceptor[DEBUG]:                                                                                                     
+2014-12-15 10:35:14:373 org.activiti.engine.impl.interceptor.LogInterceptor[DEBUG]: --- starting GetUnlockedTimersByDuedateCmd --------------------------------------------------------
+2014-12-15 10:35:14:374 org.activiti.spring.SpringTransactionInterceptor[DEBUG]: Running command with propagation REQUIRED
+2014-12-15 10:35:14:376 org.apache.ibatis.transaction.managed.ManagedTransaction[DEBUG]: Opening JDBC Connection
+2014-12-15 10:35:14:377 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate[DEBUG]: ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.apache.commons.dbcp.BasicDataSource@18c458]]
+2014-12-15 10:35:14:377 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate[DEBUG]: ==&gt;  Preparing: select RES.* from ACT_RU_JOB RES LEFT OUTER JOIN ACT_RU_EXECUTION PI ON PI.ID_ = RES.PROCESS_INSTANCE_ID_ where (RES.TYPE_ = &apos;timer&apos;) and (RES.DUEDATE_ is not null) and (RES.DUEDATE_ &lt; ?) and (RES.LOCK_OWNER_ is null or RES.LOCK_EXP_TIME_ &lt; ?) and (RES.RETRIES_ &gt; 0) and ( (RES.EXECUTION_ID_ is null) or (PI.SUSPENSION_STATE_ = 1) ) order by DUEDATE_ 
+2014-12-15 10:35:14:381 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate[DEBUG]: ==&gt; Parameters: 2014-12-15 10:35:19.372(Timestamp), 2014-12-15 10:35:19.372(Timestamp)
+2014-12-15 10:35:14:384 org.activiti.engine.impl.persistence.entity.JobEntity.selectUnlockedTimersByDuedate[DEBUG]: &lt;==      Total: 0
+2014-12-15 10:35:14:385 org.activiti.engine.impl.db.DbSqlSession[DEBUG]: flush summary: 0 insert, 0 update, 0 delete.
+2014-12-15 10:35:14:385 org.activiti.engine.impl.db.DbSqlSession[DEBUG]: now executing flush...
+2014-12-15 10:35:14:385 org.apache.ibatis.transaction.managed.ManagedTransaction[DEBUG]: Closing JDBC Connection [Transaction-aware proxy for target Connection [org.apache.commons.dbcp.PoolableConnection@5bd978]]
+2014-12-15 10:35:14:389 org.activiti.engine.impl.interceptor.LogInterceptor[DEBUG]: --- GetUnlockedTimersByDuedateCmd finished --------------------------------------------------------
+2014-12-15 10:35:14:390 org.activiti.engine.impl.interceptor.LogInterceptor[DEBUG]:                                                                                                     
+2014-12-15 10:35:14:390 org.activiti.engine.impl.jobexecutor.AcquireJobsRunnable[DEBUG]: job acquisition thread sleeping for 5000 millis
+2014-12-15 10:35:14:773 org.activiti.engine.impl.interceptor.LogInterceptor[DEBUG]:                                                                                                     
+2014-12-15 10:35:14:773 org.activiti.engine.impl.interceptor.LogInterceptor[DEBUG]: --- starting ProcessDefinitionQueryImpl --------------------------------------------------------
+2014-12-15 10:35:14:774 org.activiti.spring.SpringTransactionInterceptor[DEBUG]: Running command with propagation REQUIRED
+2014-12-15 10:35:15:062 org.apache.ibatis.transaction.managed.ManagedTransaction[DEBUG]: Opening JDBC Connection
+2014-12-15 10:35:15:064 org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity.selectProcessDefinitionsByQueryCriteria_mysql[DEBUG]: ooo Using Connection [Transaction-aware proxy for target Connection  from DataSource [org.apache.commons.dbcp.BasicDataSource@18c458]]
+2014-12-15 10:35:15:065 org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity.selectProcessDefinitionsByQueryCriteria_mysql[DEBUG]: ==&gt;  Preparing: select distinct RES.* from ACT_RE_PROCDEF RES WHERE RES.KEY_ = ? order by RES.ID_ asc LIMIT ? OFFSET ? 
+2014-12-15 10:35:15:066 org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity.selectProcessDefinitionsByQueryCriteria_mysql[DEBUG]: ==&gt; Parameters: form(String), 2147483647(Integer), 0(Integer)
+2014-12-15 10:35:15:070 org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity.selectProcessDefinitionsByQueryCriteria_mysql[DEBUG]: &lt;==      Total: 0
+2014-12-15 10:35:15:070 org.activiti.engine.impl.db.DbSqlSession[DEBUG]: flush summary: 0 insert, 0 update, 0 delete.
+2014-12-15 10:35:15:071 org.activiti.engine.impl.db.DbSqlSession[DEBUG]: now executing flush...
+2014-12-15 10:35:15:071 org.apache.ibatis.transaction.managed.ManagedTransaction[DEBUG]: Closing JDBC Connection [Transaction-aware proxy for target Connection [org.apache.commons.dbcp.PoolableConnection@5bd978]]
+2014-12-15 10:35:15:073 org.activiti.engine.impl.interceptor.LogInterceptor[DEBUG]: --- ProcessDefinitionQueryImpl finished --------------------------------------------------------
+2014-12-15 10:35:15:073 org.activiti.engine.impl.interceptor.LogInterceptor[DEBUG]:                                                                                                     
+</system-out>
+  </testcase>
+</testsuite>
